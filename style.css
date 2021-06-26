@@ -13,6 +13,8 @@ section {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 
 svg {
@@ -20,7 +22,7 @@ svg {
 }
 
 .bg {
-    width: 47%;
+    width: 593px;
     margin-right: 153px;
 }
 
