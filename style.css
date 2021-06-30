@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Rubik, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.406vw;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(37, 43, 70);
+    text-transform: uppercase;
+    font-size: 1.094vw;
+}
+
+li {
+    list-style: none;
+    padding: 0vw 2.1vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.594vw 8.828vw;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+input[type="button"] {
+    width: 8.125vw;
+    height: 3.125vw;
+    border: navajowhite;
+    border-radius: 0.391vw;
+    background: rgb(250, 87, 87);
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 8.750vw 2.031vw 0vw 9.453vw;
+}
+
+h1 {
+    font-size: 3.3vw;
+    font-weight: 500;
+}
+
+p.flex1 {
+    color: hsl(229, 8%, 60%);
+    padding: 2.031vw 0vw;
+    line-height: 2.109vw;
+}
+
+.left {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.line {
+    width: 35.313vw;
+    background: hsl(231, 69%, 60%);
+    height: 24.609vw;
+    border-bottom-left-radius: 14.063vw;
+    margin-top: 14.188vw;
+}
+
+.flex1 {
+    display: flex;
+}
+
+img.illustration-hero {
+    position: absolute;
+    width: 45.453vw;
+    left: 0;
+    top: 4.297vw;
+    pointer-events: none;
+}
+
+.btns {
+    display: flex;
+    width: 23.438vw;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo img {
+    width: 11.563vw;
+}
+
+input.Get-Chrome {
+    width: 11.719vw;
+    border-radius: 0.391vw;
+    background: hsl(231, 69%, 60%);
+    font-size: 0.898vw;
+}
+
+input.Get-Firefox {
+    color: rgb(37, 43, 70);
+    background: hsl(60deg 11% 96%);
+    width: 10.703vw;
+    border-radius: 0.391vw;
+    font-size: 0.898vw;
+    font-weight: 500;
+}
